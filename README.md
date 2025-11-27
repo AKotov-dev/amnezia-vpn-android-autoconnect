@@ -1,7 +1,7 @@
 # amnezia-vpn-android-autoconnect
 Automatic AmneziaVPN autoconnect on Android/Android TV using MacroDroid and ADB (optional)
 
-**Цель - автоматически загрузить GUI AmneziaVPN при перезагрузке TV-Box и нажать кнопку "Подключиться"**
+**Цель - загрузить GUI AmneziaVPN при перезагрузке TV-Box и нажать кнопку "Подключиться"**
 
 1. Устанавливаем MacroDroid (в тесте v5.57.6)
 2. Включаем на приставке Специальные возможности - Все сервисы MacroDroid
