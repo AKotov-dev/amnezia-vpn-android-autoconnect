@@ -38,3 +38,5 @@ let x=$(adb shell wm size | awk -F'[: x]+' '{print $3}')/2; let y=$(adb shell wm
 ![](https://github.com/AKotov-dev/amnezia-vpn-android-autoconnect/blob/main/macro-screenshot.png)
 
 Перезагружаем TV-Box и получаем автоподключение VPN при перезагрузке.
+
+Дополнительное обсуждение [здесь](https://github.com/amnezia-vpn/amnezia-client/issues/1580).
