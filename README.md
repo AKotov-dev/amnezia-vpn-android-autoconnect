@@ -32,7 +32,8 @@ X=1280 ÷ 2 = 640 пикселей
 let x=$(adb shell wm size | awk -F'[: x]+' '{print $3}')/2; let y=$(adb shell wm size | awk -F'[: x]+' '{print $4}')/8; echo X=$x; echo Y=$y
 ```
 Импортируем в MacroDroid [amnezia-clickbtn1.mdr](https://github.com/AKotov-dev/amnezia-vpn-android-autoconnect/blob/main/amnezia-clickbtn1.mdr)  
-В макросе 'click-button' ставим значения X и Y, расчитанные для своего экрана, сохраняем.
+  
+В макросе `click-button` ставим значения X и Y, расчитанные для своего экрана, сохраняем.
 
 ![](https://github.com/AKotov-dev/amnezia-vpn-android-autoconnect/blob/main/macro-screenshot.png)
 
