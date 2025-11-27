@@ -27,9 +27,13 @@ X=1280 ÷ 2 = 640 пикселей
 
 **Итого координаты для MacroDroid:** X = 640, Y = 90
 
+**Примечание:** Если есть подключение по ADB координаты кнопки можно расчитать однострочником
+```
+let x=$(adb shell wm size | awk -F'[: x]+' '{print $3}')/2; let y=$(adb shell wm size | awk -F'[: x]+' '{print $4}')/8; echo X=$x; echo Y=$y
+```
 Импортируем в MacroDroid [amnezia-clickbtn1.mdr](https://github.com/AKotov-dev/amnezia-vpn-android-autoconnect/blob/main/amnezia-clickbtn1.mdr)  
 В макросе 'click-button' ставим значения X и Y, расчитанные для своего экрана, сохраняем.
 
-
+![](https://github.com/AKotov-dev/amnezia-vpn-android-autoconnect/blob/main/macro-screenshot.png)
 
 Перезагружаем TV-Box и получаем автоподключение при перезагрузке.
